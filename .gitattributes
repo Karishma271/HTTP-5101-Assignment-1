@@ -1,5 +1,4 @@
-#* linguist-vendored
-#*.cs linguist-vendored=false
+
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
@@ -12,7 +11,8 @@
 # default for csharp files.
 # Note: This is only used by command line
 ###############################################################################
-*.cs     diff=csharp
+* linguist-vendored
+*.cs linguist-vendored=false
 
 ###############################################################################
 # Set the merge driver for project and solution files
